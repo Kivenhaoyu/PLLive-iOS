@@ -1,0 +1,44 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - HappyDNS (0.2.3)
+  - PLPlayerKit (2.0.4):
+    - PLPlayerKit/precompiled (= 2.0.4)
+  - PLPlayerKit/precompiled (2.0.4)
+  - PLStreamingKit (2.0.0):
+    - HappyDNS
+    - PLStreamingKit/precompiled (= 2.0.0)
+  - PLStreamingKit/precompiled (2.0.0):
+    - HappyDNS
+
+DEPENDENCIES:
+  - AFNetworking
+  - PLPlayerKit (from `DemoForPili/PLPlayerKit/`)
+  - PLStreamingKit (from `DemoForPili/PLStreamingKit/`)
+
+EXTERNAL SOURCES:
+  PLPlayerKit:
+    :path: DemoForPili/PLPlayerKit/
+  PLStreamingKit:
+    :path: DemoForPili/PLStreamingKit/
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  HappyDNS: 6d85942e64c28b4fa61f8c76580398f52d6d1d11
+  PLPlayerKit: 5090e619bd0560469991bc0d6615bc39c4f63784
+  PLStreamingKit: 8c98ecba9de563aeb254896193c3e3c5361bfe25
+
+COCOAPODS: 0.39.0
